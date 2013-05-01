@@ -1,0 +1,63 @@
+require 'rubygems'
+require 'fileutils'
+
+class Logger
+
+  SUPPRESS  = 'suppress'
+  NORMAL    = 'normal'
+  LOW       = 'low'
+
+  def initialize(event_type=nil, event_object=nil, log_file=nil)
+    @event_type, @event_object, @log_file = event_type, event_object, log_file
+  end
+
+  def debug(msg, options={})
+    log(msg, options)
+  end
+
+  def info(msg, options={})
+    defaults = {
+        :level     => "info",
+        :propagate => LOW
+    }
+    options = defaults.merge(options)
+    log(msg, options)
+  end
+
+  def error(msg, options={})
+    defaults = {
+        :level      => "error",
+        :propagate  => NORMAL,
+        :alert_type => "error",
+        :notify     => true
+    }
+    options = defaults.merge(options)
+    log(msg, options)
+  end
+
+  def log(msg, options={})
+    defaults = {
+        :level        => "debug",
+        :propagate    => SUPPRESS,
+        :notify       => false,
+        :event_type   => @event_type,
+        :event_object => @event_object
+    }
+    options = defaults.merge(options)
+
+    log_msg = "#{Time.new} - [#{options[:level]}]: #{msg}"
+
+    if @log_file
+      begin
+        File.open("/var/log/wooga/" + @log_file, 'a') { |file| file.write(log_msg + '\n') }
+        return
+      rescue
+        # log to console
+      end
+    end
+
+    puts log_msg
+  end
+end
+
+

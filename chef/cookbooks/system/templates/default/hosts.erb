@@ -1,0 +1,5 @@
+# Managed by chef. Local changes will be lost
+127.0.0.1	localhost
+<%- node[:hosts].each do |name,ips| -%>
+<%= "#{ips[0]}\t#{name}" %>
+<%- end -%>

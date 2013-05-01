@@ -1,0 +1,10 @@
+{
+  "network": {
+    "bond0_ip":            "85.195.119.243",
+    "bond0_interfaces":    ["eth2", "eth3"],
+    "bond0_config":        "bond0_config_1",
+    "bond1_ip":            "192.168.1.2",
+    "bond1_interfaces":    ["eth0", "eth1"]
+  },
+  "run_list": ["role[riak]"]
+}

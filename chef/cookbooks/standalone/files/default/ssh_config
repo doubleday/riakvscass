@@ -1,0 +1,6 @@
+Host wooga.beanstalkapp.com 
+  IdentityFile ~/.ssh/beanstalk_rsa
+
+Host rsync.lax.edgecastcdn.net
+  IdentityFile ~/.ssh/edgecast_rsa
+

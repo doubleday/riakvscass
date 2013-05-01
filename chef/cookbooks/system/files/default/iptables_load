@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ "$IFACE" == "bond0" ]; then
+    /sbin/iptables-restore < /etc/iptables.conf
+fi
+exit 0

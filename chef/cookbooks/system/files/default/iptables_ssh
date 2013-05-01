@@ -1,0 +1,7 @@
+*filter
+-A INPUT -i bond0 -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+-A INPUT -i bond0 -p tcp --dport 22 -m state --state NEW,ESTABLISHED -j ACCEPT
+-A INPUT -i bond0 -p tcp -j DROP
+-A INPUT -i bond0 -p udp -j DROP
+COMMIT
+#

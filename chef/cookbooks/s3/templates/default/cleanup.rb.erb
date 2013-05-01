@@ -1,0 +1,46 @@
+require "#{File.dirname(__FILE__)}/../common.rb"
+require 'aws/s3'
+
+access_key  = '<%= @access_key %>'
+secret_key  = '<%= @secret_key %>'
+bucket_name = '<%= @bucket_name %>'
+
+log = Logger.new("s3.cleanup")
+
+begin
+  s3 = AWS::S3.new(
+    :access_key_id     => access_key,
+    :secret_access_key => secret_key)
+
+  def time_from_key(key)
+    if /(?<formatted_time>\d{8}_\d{4})/ =~ key.split('/').last
+      DateTime.strptime(formatted_time, "%Y%m%d_%H%M").to_time
+    end
+  end
+
+  days_to_keep = <%= node[:s3cleanup].to_hash.inspect %>
+
+  log.info("S3 cleanup started")
+
+  bucket = s3.buckets[bucket_name]
+  files_deleted = 0
+  days_to_keep.each do |section, days|
+    delete_before = Time.gm(Time.now.year, Time.now.month, Time.now.mday - days.to_i + 1)
+    bucket.objects.with_prefix(section).each do |object|
+      object_ts = time_from_key(object.key)
+      if object_ts and object_ts < delete_before
+        files_deleted += 1        
+        object.delete 
+        puts "#{Time.new} - Deleted #{object.key}"
+      end
+    end
+  end
+
+  log.info("S3 cleanup finished. Deleted #{files_deleted} files.")
+  exit 0
+
+rescue => e
+  log.error("S3 cleanup failed. #{e.message}")
+  exit 1
+
+end

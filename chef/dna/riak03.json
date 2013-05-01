@@ -1,0 +1,8 @@
+{
+  "run_list": ["role[riak]"],
+  "riak": {
+      "args": {
+          "-name": "riak@10.36.214.15"
+      }
+  }
+}

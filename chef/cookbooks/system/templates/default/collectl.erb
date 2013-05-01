@@ -1,0 +1,12 @@
+DaemonCommands = -P -f /var/log/collectl -r00:00,7 -m -F60 -s+YZ --export graphite,<%= node[:hosts]['graphite'][0] %>
+
+PQuery =   /usr/sbin/perfquery:/usr/bin/perfquery:/usr/local/ofed/bin/perfquery
+PCounter = /usr/mellanox/bin/get_pcounter
+VStat =    /usr/mellanox/bin/vstat:/usr/bin/vstat
+OfedInfo = /usr/bin/ofed_info:/usr/local/ofed/bin/ofed_info
+
+Resize=/usr/bin/resize:/usr/X11R6/bin/resize
+
+Ipmitool =  /usr/bin/ipmitool:/usr/local/bin/ipmitool:/opt/hptc/sbin/ipmitool
+IpmiCache = /var/run/collectl-ipmicache
+IpmiTypes = fan,temp,current

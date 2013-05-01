@@ -1,0 +1,1139 @@
+  * executing `chef:sync_solo'
+  * executing `chef:sync_dna'
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+rsync: link_stat "/Users/danieldoubleday/Source/wooga/g9-chef/dna/app.json" failed: No such file or directory (2)
+rsync error: some files could not be transferred (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]
+building file list ... done
+
+sent 53 bytes  received 20 bytes  48.67 bytes/sec
+total size is 0  speedup is 0.00
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+rsync: link_stat "/Users/danieldoubleday/Source/wooga/g9-chef/dna/app.json" failed: No such file or directory (2)
+rsync error: some files could not be transferred (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]
+building file list ... done
+
+sent 53 bytes  received 20 bytes  146.00 bytes/sec
+total size is 0  speedup is 0.00
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+rsync: link_stat "/Users/danieldoubleday/Source/wooga/g9-chef/dna/app.json" failed: No such file or directory (2)
+rsync error: some files could not be transferred (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]
+building file list ... done
+
+sent 53 bytes  received 20 bytes  48.67 bytes/sec
+total size is 0  speedup is 0.00
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+rsync: link_stat "/Users/danieldoubleday/Source/wooga/g9-chef/dna/app.json" failed: No such file or directory (2)
+rsync error: some files could not be transferred (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]
+building file list ... done
+
+sent 53 bytes  received 20 bytes  146.00 bytes/sec
+total size is 0  speedup is 0.00
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+rsync: link_stat "/Users/danieldoubleday/Source/wooga/g9-chef/dna/app.json" failed: No such file or directory (2)
+rsync error: some files could not be transferred (code 23) at /SourceCache/rsync/rsync-42/rsync/main.c(992) [sender=2.6.9]
+building file list ... done
+
+sent 53 bytes  received 20 bytes  48.67 bytes/sec
+total size is 0  speedup is 0.00
+  * executing `chef:sync_cookbook_repo'
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 4740 bytes  received 20 bytes  9520.00 bytes/sec
+total size is 301542  speedup is 63.35
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 4740 bytes  received 20 bytes  3173.33 bytes/sec
+total size is 301542  speedup is 63.35
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 4740 bytes  received 20 bytes  9520.00 bytes/sec
+total size is 301542  speedup is 63.35
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 4740 bytes  received 20 bytes  9520.00 bytes/sec
+total size is 301542  speedup is 63.35
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 4740 bytes  received 20 bytes  9520.00 bytes/sec
+total size is 301542  speedup is 63.35
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 488 bytes  received 20 bytes  1016.00 bytes/sec
+total size is 41362  speedup is 81.42
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 488 bytes  received 20 bytes  338.67 bytes/sec
+total size is 41362  speedup is 81.42
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 488 bytes  received 20 bytes  1016.00 bytes/sec
+total size is 41362  speedup is 81.42
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 488 bytes  received 20 bytes  338.67 bytes/sec
+total size is 41362  speedup is 81.42
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 488 bytes  received 20 bytes  1016.00 bytes/sec
+total size is 41362  speedup is 81.42
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 410 bytes  received 20 bytes  286.67 bytes/sec
+total size is 70190  speedup is 163.23
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 410 bytes  received 20 bytes  860.00 bytes/sec
+total size is 70190  speedup is 163.23
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 410 bytes  received 20 bytes  860.00 bytes/sec
+total size is 70190  speedup is 163.23
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 410 bytes  received 20 bytes  286.67 bytes/sec
+total size is 70190  speedup is 163.23
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 410 bytes  received 20 bytes  860.00 bytes/sec
+total size is 70190  speedup is 163.23
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 145 bytes  received 20 bytes  110.00 bytes/sec
+total size is 207  speedup is 1.25
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 145 bytes  received 20 bytes  330.00 bytes/sec
+total size is 207  speedup is 1.25
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 145 bytes  received 20 bytes  110.00 bytes/sec
+total size is 207  speedup is 1.25
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 145 bytes  received 20 bytes  330.00 bytes/sec
+total size is 207  speedup is 1.25
+Warning: Identity file /Users/danieldoubleday/.ssh/g9.pem not accessible: No such file or directory.
+building file list ... done
+
+sent 145 bytes  received 20 bytes  330.00 bytes/sec
+total size is 207  speedup is 1.25
+  * executing `chef:solo'
+  * executing "sudo -p 'sudo password: ' -i chef-solo -c /home/ubuntu/.chef/solo.rb -j /home/ubuntu/.chef/dna.json"
+    servers: ["85.195.119.246", "85.195.119.247", "85.195.119.248", "85.195.119.249", "85.195.119.250"]
+    [85.195.119.250] executing command
+    [85.195.119.246] executing command
+    [85.195.119.247] executing command
+    [85.195.119.248] executing command
+    [85.195.119.249] executing command
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: *** Chef 10.18.2 ***
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: *** Chef 10.18.0 ***
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: *** Chef 10.18.0 ***
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: *** Chef 10.18.2 ***
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: *** Chef 10.18.0 ***
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Setting the run_list to ["role[app]", "role[lb]"] from JSON
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Setting the run_list to ["role[app]", "role[lb]"] from JSON
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Run List is [role[app], role[lb]]
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Run List expands to [system, system::networking, datadog, ruby-rvm, application, nginx, nginx::lb]
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Starting Chef Run for app01
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Running start handlers
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Start handlers complete.
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Run List is [role[app], role[lb]]
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Run List expands to [system, system::networking, datadog, ruby-rvm, application, nginx, nginx::lb]
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Starting Chef Run for app02
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Running start handlers
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Start handlers complete.
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Setting the run_list to ["role[app]"] from JSON
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Run List is [role[app]]
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Run List expands to [system, system::networking, datadog, ruby-rvm, application, nginx]
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Starting Chef Run for app05
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Running start handlers
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Start handlers complete.
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Setting the run_list to ["role[app]"] from JSON
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Run List is [role[app]]
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Run List expands to [system, system::networking, datadog, ruby-rvm, application, nginx]
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Starting Chef Run for app04
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Running start handlers
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Start handlers complete.
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Setting the run_list to ["role[app]"] from JSON
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[htop] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sysstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] 
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[dstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[traceroute] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Run List is [role[app]]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Run List expands to [system, system::networking, datadog, ruby-rvm, application, nginx]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Starting Chef Run for app03
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Running start handlers
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Start handlers complete.
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[htop] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sysstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[dstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[traceroute] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] WARN: Previous template[logrotate.conf]: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:111:in `from_file'
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] WARN: Current  template[logrotate.conf]: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:41:in `from_file'
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[htop] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nmap] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for execute[configure timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:16:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:21:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cron[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:23:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable motd] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:29:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[ssh] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:35:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/ssh/sshd_config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[load iptables] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:45:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/iptables.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:50:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/network/if-pre-up.d/iptables_load] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:56:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[procps] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:63:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/99-chef-attributes.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:82:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[run rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:90:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable ondemand deamon] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:95:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/var/log/wooga] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:107:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:111:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/scripts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:121:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[common.rb] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:126:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifenslave-2.6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:1:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[networking] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:3:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/interfaces] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:7:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/hosts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:15:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/if-up.d/lb_ip] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:24:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/if-down.d/lb_ip] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:30:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[datadog update aptitude] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:11:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[python-requests] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:13:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/etc/dd-agent/custom-checks] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:15:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/nginx.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:79:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:88:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/thin.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:93:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/http_socket_check.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:105:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:113:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[rsyslog] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nmap] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for execute[configure timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:16:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:21:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cron[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:23:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable motd] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:29:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[ssh] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:35:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/ssh/sshd_config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[load iptables] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:45:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/iptables.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:50:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/network/if-pre-up.d/iptables_load] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:56:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[procps] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:63:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/99-chef-attributes.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:82:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[run rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:90:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable ondemand deamon] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:95:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/var/log/wooga] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:107:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:111:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/scripts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:121:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[common.rb] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:126:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifenslave-2.6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:1:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[networking] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:3:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/interfaces] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:7:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/hosts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:15:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/if-up.d/lb_ip] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:24:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/if-down.d/lb_ip] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:30:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[datadog update aptitude] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:11:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[python-requests] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:13:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/etc/dd-agent/custom-checks] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:15:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/nginx.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:79:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:88:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/thin.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:93:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/http_socket_check.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:105:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:113:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[rsyslog] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:120:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rsyslog.d/10-datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:122:in `from_file'
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] WARN: Previous template[logrotate.conf]: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:111:in `from_file'
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] WARN: Current  template[logrotate.conf]: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:41:in `from_file'
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[htop] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:120:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rsyslog.d/10-datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:122:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[build-essential] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openssl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[curl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[git-core] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libssl-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libyaml-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libsqlite3-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sqlite3] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxml2-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxslt-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[autoconf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libc6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ncurses-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[automake] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libtool] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[bison] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[subversion] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install RVM] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:5:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install ruby] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[create gemset] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:19:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:24:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/.bundle] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:31:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.bundle/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openjdk-7-jre-headless] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/sockets] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[set permissions] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[ripple.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[build-essential] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openssl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[curl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[git-core] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libssl-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libyaml-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libsqlite3-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sqlite3] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxml2-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxslt-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[autoconf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libc6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ncurses-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[automake] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libtool] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[bison] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[subversion] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install RVM] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:5:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install ruby] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[create gemset] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:19:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:24:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/.bundle] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:31:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.bundle/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openjdk-7-jre-headless] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/sockets] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[set permissions] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[ripple.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:17:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[redis.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:25:in `from_file'
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[sysstat] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:17:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[redis.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:25:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[thin.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:33:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:41:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nginx-light] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:3:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[nginx.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:8:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[vhost.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:27:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/lb.rb:1:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[vhost_lb.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/lb.rb:5:in `from_file'
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[htop] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[htop] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sysstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[dstat] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[traceroute] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[thin.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:33:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:41:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nginx-light] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:3:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[nginx.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:8:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[vhost.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:27:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/lb.rb:1:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[vhost_lb.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/lb.rb:5:in `from_file'
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[htop] action install (system::default line 9)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[sysstat] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[sysstat] action install (system::default line 9)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[sysstat] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nmap] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:9:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for execute[configure timezone] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:16:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:21:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cron[ntpdate] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:23:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable motd] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:29:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[ssh] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:35:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/ssh/sshd_config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[load iptables] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:45:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/iptables.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:50:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/network/if-pre-up.d/iptables_load] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:56:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[procps] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:63:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for file[/etc/sysctl.d/99-chef-attributes.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:82:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[run rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:90:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[disable ondemand deamon] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:95:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rc.local] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/var/log/wooga] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:107:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:111:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/scripts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:121:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[common.rb] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/default.rb:126:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ifenslave-2.6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:1:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[networking] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:3:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/network/interfaces] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:7:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/hosts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:15:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for execute[delete if-up] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:38:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for execute[delete if-down] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/system/recipes/networking.rb:44:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[datadog update aptitude] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[datadog-agent] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:11:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[python-requests] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:13:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/etc/dd-agent/custom-checks] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:15:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/nginx.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:79:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:88:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/thin.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:93:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:100:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/conf.d/http_socket_check.yaml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:105:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[/etc/dd-agent/datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:113:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[rsyslog] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:120:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/etc/rsyslog.d/10-datadog.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/datadog/recipes/default.rb:122:in `from_file'
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[ifstat] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[build-essential] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openssl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libreadline6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[curl] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[git-core] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[zlib1g-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libssl-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libyaml-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libsqlite3-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[sqlite3] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxml2-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libxslt-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[autoconf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libc6-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[ncurses-dev] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[automake] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[libtool] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[bison] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[subversion] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:2:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install RVM] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:5:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[install ruby] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:10:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[create gemset] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:19:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:24:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/.bundle] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:31:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for cookbook_file[/home/ubuntu/.bundle/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/ruby-rvm/recipes/default.rb:37:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[openjdk-7-jre-headless] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/config] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for directory[/home/ubuntu/applications/g9_backend/shared/sockets] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:4:in `block in from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for bash[set permissions] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:12:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[ripple.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:17:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[redis.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:25:in `from_file'
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[ifstat] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[ifstat] action install (system::default line 9)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[ifstat] action install (system::default line 9)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[dstat] action install (system::default line 9)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[dstat] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[dstat] action install (system::default line 9)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[dstat] action install (system::default line 9)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[traceroute] action install (system::default line 9)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[traceroute] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[traceroute] action install (system::default line 9)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[traceroute] action install (system::default line 9)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[nmap] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[thin.yml] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:33:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[logrotate.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/application/recipes/default.rb:41:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for package[nginx-light] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:1:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for service[nginx] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:3:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[nginx.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:8:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: Cloning resource attributes for template[vhost.conf] from prior resource (CHEF-3694)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] WARN: From: /home/ubuntu/.chef-cookbook/cookbooks/nginx/recipes/default.rb:27:in `from_file'
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[htop] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[sysstat] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[ifstat] action install (system::default line 9)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[nmap] action install (system::default line 9)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[dstat] action install (system::default line 9)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[nmap] action install (system::default line 9)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[nmap] action install (system::default line 9)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing file[/etc/timezone] action create (system::default line 12)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing execute[configure timezone] action run (system::default line 16)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing package[ntpdate] action install (system::default line 21)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[traceroute] action install (system::default line 9)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing file[/etc/timezone] action create (system::default line 12)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing file[/etc/timezone] action create (system::default line 12)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing file[/etc/timezone] action create (system::default line 12)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing execute[configure timezone] action run (system::default line 16)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing execute[configure timezone] action run (system::default line 16)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing package[ntpdate] action install (system::default line 21)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing execute[configure timezone] action run (system::default line 16)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing package[ntpdate] action install (system::default line 21)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:07+00:00] INFO: Processing package[ntpdate] action install (system::default line 21)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing cron[ntpdate] action create (system::default line 23)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:07+00:00] INFO: Processing bash[disable motd] action run (system::default line 29)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing package[nmap] action install (system::default line 9)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing service[ssh] action nothing (system::default line 35)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing cron[ntpdate] action create (system::default line 23)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:07+00:00] INFO: Processing cron[ntpdate] action create (system::default line 23)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cron[ntpdate] action create (system::default line 23)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing bash[disable motd] action run (system::default line 29)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable motd] action run (system::default line 29)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable motd] action run (system::default line 29)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:07+00:00] INFO: Processing file[/etc/timezone] action create (system::default line 12)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:07+00:00] INFO: Processing service[ssh] action nothing (system::default line 35)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing service[ssh] action nothing (system::default line 35)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing execute[configure timezone] action run (system::default line 16)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing service[ssh] action nothing (system::default line 35)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[ntpdate] action install (system::default line 21)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/ssh/sshd_config] action create (system::default line 37)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cron[ntpdate] action create (system::default line 23)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/ssh/sshd_config] action create (system::default line 37)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/ssh/sshd_config] action create (system::default line 37)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/ssh/sshd_config] action create (system::default line 37)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing bash[load iptables] action nothing (system::default line 45)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/iptables.conf] action create (system::default line 50)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/network/if-pre-up.d/iptables_load] action create (system::default line 56)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing bash[load iptables] action nothing (system::default line 45)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/iptables.conf] action create (system::default line 50)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable motd] action run (system::default line 29)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing service[procps] action nothing (system::default line 63)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/network/if-pre-up.d/iptables_load] action create (system::default line 56)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing service[procps] action nothing (system::default line 63)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing bash[load iptables] action nothing (system::default line 45)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/iptables.conf] action create (system::default line 50)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/network/if-pre-up.d/iptables_load] action create (system::default line 56)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing service[procps] action nothing (system::default line 63)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing service[ssh] action nothing (system::default line 35)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing file[/etc/sysctl.d/99-chef-attributes.conf] action create (system::default line 82)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing bash[run rc.local] action nothing (system::default line 90)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable ondemand deamon] action run (system::default line 95)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rc.local] action create (system::default line 100)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/var/log/wooga] action create (system::default line 107)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[logrotate.conf] action create (system::default line 111)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing bash[load iptables] action nothing (system::default line 45)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/iptables.conf] action create (system::default line 50)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/home/ubuntu/scripts] action create (system::default line 121)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/network/if-pre-up.d/iptables_load] action create (system::default line 56)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[common.rb] action create (system::default line 126)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing service[procps] action nothing (system::default line 63)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[ifenslave-2.6] action install (system::networking line 1)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/ssh/sshd_config] action create (system::default line 37)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing bash[load iptables] action nothing (system::default line 45)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/iptables.conf] action create (system::default line 50)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/network/if-pre-up.d/iptables_load] action create (system::default line 56)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing service[procps] action nothing (system::default line 63)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing file[/etc/sysctl.d/99-chef-attributes.conf] action create (system::default line 82)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing file[/etc/sysctl.d/99-chef-attributes.conf] action create (system::default line 82)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing bash[run rc.local] action nothing (system::default line 90)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable ondemand deamon] action run (system::default line 95)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rc.local] action create (system::default line 100)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/var/log/wooga] action create (system::default line 107)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing bash[run rc.local] action nothing (system::default line 90)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable ondemand deamon] action run (system::default line 95)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[logrotate.conf] action create (system::default line 111)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rc.local] action create (system::default line 100)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/var/log/wooga] action create (system::default line 107)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing file[/etc/sysctl.d/99-chef-attributes.conf] action create (system::default line 82)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[logrotate.conf] action create (system::default line 111)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/home/ubuntu/scripts] action create (system::default line 121)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing service[networking] action nothing (system::networking line 3)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[common.rb] action create (system::default line 126)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing bash[run rc.local] action nothing (system::default line 90)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable ondemand deamon] action run (system::default line 95)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rc.local] action create (system::default line 100)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/home/ubuntu/scripts] action create (system::default line 121)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[ifenslave-2.6] action install (system::networking line 1)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[common.rb] action create (system::default line 126)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/var/log/wooga] action create (system::default line 107)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[logrotate.conf] action create (system::default line 111)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[ifenslave-2.6] action install (system::networking line 1)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/home/ubuntu/scripts] action create (system::default line 121)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[common.rb] action create (system::default line 126)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[ifenslave-2.6] action install (system::networking line 1)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/interfaces] action create (system::networking line 7)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/hosts] action create (system::networking line 15)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing file[/etc/sysctl.d/99-chef-attributes.conf] action create (system::default line 82)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-up] action run (system::networking line 38)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-down] action run (system::networking line 44)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing service[networking] action nothing (system::networking line 3)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing service[networking] action nothing (system::networking line 3)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing bash[datadog update aptitude] action run (datadog::default line 1)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[datadog-agent] action install (datadog::default line 10)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing service[networking] action nothing (system::networking line 3)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/interfaces] action create (system::networking line 7)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/interfaces] action create (system::networking line 7)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing bash[run rc.local] action nothing (system::default line 90)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing bash[disable ondemand deamon] action run (system::default line 95)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rc.local] action create (system::default line 100)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/hosts] action create (system::networking line 15)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/var/log/wooga] action create (system::default line 107)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[logrotate.conf] action create (system::default line 111)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/interfaces] action create (system::networking line 7)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/hosts] action create (system::networking line 15)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/if-up.d/lb_ip] action create (system::networking line 24)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/if-up.d/lb_ip] action create (system::networking line 24)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/if-down.d/lb_ip] action create (system::networking line 30)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing service[datadog-agent] action nothing (datadog::default line 11)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/hosts] action create (system::networking line 15)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing bash[datadog update aptitude] action run (datadog::default line 1)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[datadog-agent] action install (datadog::default line 10)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/if-down.d/lb_ip] action create (system::networking line 30)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing bash[datadog update aptitude] action run (datadog::default line 1)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[datadog-agent] action install (datadog::default line 10)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-up] action run (system::networking line 38)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/home/ubuntu/scripts] action create (system::default line 121)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[common.rb] action create (system::default line 126)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[ifenslave-2.6] action install (system::networking line 1)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-down] action run (system::networking line 44)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing bash[datadog update aptitude] action run (datadog::default line 1)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[datadog-agent] action install (datadog::default line 10)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing service[datadog-agent] action nothing (datadog::default line 11)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing service[networking] action nothing (system::networking line 3)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing service[datadog-agent] action nothing (datadog::default line 11)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[python-requests] action install (datadog::default line 13)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing service[datadog-agent] action nothing (datadog::default line 11)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/network/interfaces] action create (system::networking line 7)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/hosts] action create (system::networking line 15)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[python-requests] action install (datadog::default line 13)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-up] action run (system::networking line 38)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/etc/dd-agent/custom-checks] action delete (datadog::default line 15)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/nginx.yaml] action create (datadog::default line 79)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing execute[delete if-down] action run (system::networking line 44)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[python-requests] action install (datadog::default line 13)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] action create (datadog::default line 88)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[python-requests] action install (datadog::default line 13)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/thin.yaml] action create (datadog::default line 93)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing bash[datadog update aptitude] action run (datadog::default line 1)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[datadog-agent] action install (datadog::default line 10)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] action create (datadog::default line 100)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/etc/dd-agent/custom-checks] action delete (datadog::default line 15)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/nginx.yaml] action create (datadog::default line 79)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] action create (datadog::default line 88)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/etc/dd-agent/custom-checks] action delete (datadog::default line 15)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/etc/dd-agent/custom-checks] action delete (datadog::default line 15)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/nginx.yaml] action create (datadog::default line 79)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing service[datadog-agent] action nothing (datadog::default line 11)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] action create (datadog::default line 88)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/thin.yaml] action create (datadog::default line 93)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] action create (datadog::default line 100)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/http_socket_check.yaml] action create (datadog::default line 105)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/datadog.conf] action create (datadog::default line 113)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing service[rsyslog] action nothing (datadog::default line 120)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/thin.yaml] action create (datadog::default line 93)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] action create (datadog::default line 100)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/http_socket_check.yaml] action create (datadog::default line 105)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/datadog.conf] action create (datadog::default line 113)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing service[rsyslog] action nothing (datadog::default line 120)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/nginx.yaml] action create (datadog::default line 79)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] action create (datadog::default line 88)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/thin.yaml] action create (datadog::default line 93)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] action create (datadog::default line 100)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/http_socket_check.yaml] action create (datadog::default line 105)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/datadog.conf] action create (datadog::default line 113)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing service[rsyslog] action nothing (datadog::default line 120)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/http_socket_check.yaml] action create (datadog::default line 105)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/datadog.conf] action create (datadog::default line 113)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing service[rsyslog] action nothing (datadog::default line 120)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rsyslog.d/10-datadog.conf] action create (datadog::default line 122)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[build-essential] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[python-requests] action install (datadog::default line 13)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rsyslog.d/10-datadog.conf] action create (datadog::default line 122)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[build-essential] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[openssl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rsyslog.d/10-datadog.conf] action create (datadog::default line 122)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rsyslog.d/10-datadog.conf] action create (datadog::default line 122)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[build-essential] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[build-essential] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing directory[/etc/dd-agent/custom-checks] action delete (datadog::default line 15)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/nginx.yaml] action create (datadog::default line 79)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[openssl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[openssl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[openssl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/thin.py] action create (datadog::default line 88)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/thin.yaml] action create (datadog::default line 93)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/usr/share/datadog/agent/checks.d/http_socket_check.py] action create (datadog::default line 100)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/conf.d/http_socket_check.yaml] action create (datadog::default line 105)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing template[/etc/dd-agent/datadog.conf] action create (datadog::default line 113)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing service[rsyslog] action nothing (datadog::default line 120)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing cookbook_file[/etc/rsyslog.d/10-datadog.conf] action create (datadog::default line 122)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[build-essential] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[curl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[openssl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[git-core] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[curl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[curl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[git-core] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[git-core] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[curl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[git-core] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libreadline6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libssl-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[curl] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libyaml-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libssl-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[git-core] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libssl-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libsqlite3-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libyaml-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libyaml-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[sqlite3] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libsqlite3-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[zlib1g-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libsqlite3-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxml2-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[sqlite3] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libssl-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[sqlite3] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxslt-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libssl-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libyaml-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libsqlite3-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[sqlite3] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxml2-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libyaml-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxml2-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxml2-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxslt-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libsqlite3-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxslt-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxslt-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: package[libxslt-dev] is a virtual package, actually acting on package[libxslt1-dev]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[sqlite3] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[autoconf] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: package[libxslt-dev] is a virtual package, actually acting on package[libxslt1-dev]
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: package[libxslt-dev] is a virtual package, actually acting on package[libxslt1-dev]
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: package[libxslt-dev] is a virtual package, actually acting on package[libxslt1-dev]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxml2-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libc6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[autoconf] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[autoconf] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[autoconf] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libxslt-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[ncurses-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libc6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libc6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libc6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[ncurses-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: package[libxslt-dev] is a virtual package, actually acting on package[libxslt1-dev]
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[ncurses-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[ncurses-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: package[ncurses-dev] is a virtual package, actually acting on package[libncurses5-dev]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[autoconf] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[automake] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: package[ncurses-dev] is a virtual package, actually acting on package[libncurses5-dev]
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: package[ncurses-dev] is a virtual package, actually acting on package[libncurses5-dev]
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: package[ncurses-dev] is a virtual package, actually acting on package[libncurses5-dev]
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[libc6-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[libtool] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[automake] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[automake] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[automake] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:08+00:00] INFO: Processing package[ncurses-dev] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:08+00:00] INFO: Processing package[bison] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:08+00:00] INFO: Processing package[libtool] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:08+00:00] INFO: Processing package[libtool] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:08+00:00] INFO: Processing package[libtool] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing package[subversion] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing package[bison] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing package[bison] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing package[bison] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: package[ncurses-dev] is a virtual package, actually acting on package[libncurses5-dev]
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install RVM] action run (ruby-rvm::default line 5)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install ruby] action run (ruby-rvm::default line 10)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing package[subversion] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing package[subversion] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing package[subversion] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing package[automake] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install RVM] action run (ruby-rvm::default line 5)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install ruby] action run (ruby-rvm::default line 10)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install RVM] action run (ruby-rvm::default line 5)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install RVM] action run (ruby-rvm::default line 5)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install ruby] action run (ruby-rvm::default line 10)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install ruby] action run (ruby-rvm::default line 10)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing package[libtool] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing package[bison] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing package[subversion] action install (ruby-rvm::default line 2)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install RVM] action run (ruby-rvm::default line 5)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing bash[install ruby] action run (ruby-rvm::default line 10)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing bash[create gemset] action run (ruby-rvm::default line 19)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing bash[create gemset] action run (ruby-rvm::default line 19)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing bash[create gemset] action run (ruby-rvm::default line 19)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing bash[create gemset] action run (ruby-rvm::default line 19)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing bash[create gemset] action run (ruby-rvm::default line 19)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] action create (ruby-rvm::default line 24)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/.bundle] action create (ruby-rvm::default line 31)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.bundle/config] action create (ruby-rvm::default line 37)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing package[openjdk-7-jre-headless] action install (application::default line 1)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/config] action create (application::default line 4)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] action create (ruby-rvm::default line 24)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/sockets] action create (application::default line 4)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing bash[set permissions] action run (application::default line 12)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/.bundle] action create (ruby-rvm::default line 31)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.bundle/config] action create (ruby-rvm::default line 37)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing package[openjdk-7-jre-headless] action install (application::default line 1)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] action create (ruby-rvm::default line 24)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/.bundle] action create (ruby-rvm::default line 31)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] action create (ruby-rvm::default line 24)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.bundle/config] action create (ruby-rvm::default line 37)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing package[openjdk-7-jre-headless] action install (application::default line 1)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/.bundle] action create (ruby-rvm::default line 31)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing template[ripple.yml] action create (application::default line 17)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.bundle/config] action create (ruby-rvm::default line 37)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing package[openjdk-7-jre-headless] action install (application::default line 1)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing template[redis.yml] action create (application::default line 25)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/config] action create (application::default line 4)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/sockets] action create (application::default line 4)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing bash[set permissions] action run (application::default line 12)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/config] action create (application::default line 4)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/sockets] action create (application::default line 4)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing bash[set permissions] action run (application::default line 12)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/config] action create (application::default line 4)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/sockets] action create (application::default line 4)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing bash[set permissions] action run (application::default line 12)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing template[ripple.yml] action create (application::default line 17)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing template[redis.yml] action create (application::default line 25)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:09+00:00] INFO: Processing template[thin.yml] action create (application::default line 33)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing template[ripple.yml] action create (application::default line 17)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing template[redis.yml] action create (application::default line 25)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing template[ripple.yml] action create (application::default line 17)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing template[redis.yml] action create (application::default line 25)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing template[thin.yml] action create (application::default line 33)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:09+00:00] INFO: Processing template[thin.yml] action create (application::default line 33)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:09+00:00] INFO: Processing template[logrotate.conf] action create (application::default line 41)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Processing package[nginx-light] action install (nginx::default line 1)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.rvm/hooks/after_use_ruby_memory_opts] action create (ruby-rvm::default line 24)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:09+00:00] INFO: Processing template[thin.yml] action create (application::default line 33)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing directory[/home/ubuntu/.bundle] action create (ruby-rvm::default line 31)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:09+00:00] INFO: Processing cookbook_file[/home/ubuntu/.bundle/config] action create (ruby-rvm::default line 37)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Processing template[logrotate.conf] action create (application::default line 41)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action enable (nginx::default line 3)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing package[openjdk-7-jre-headless] action install (application::default line 1)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Processing package[nginx-light] action install (nginx::default line 1)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing template[logrotate.conf] action create (application::default line 41)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing package[nginx-light] action install (nginx::default line 1)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing template[logrotate.conf] action create (application::default line 41)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing package[nginx-light] action install (nginx::default line 1)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Processing template[nginx.conf] action create (nginx::default line 8)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost.conf] action create (nginx::default line 27)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Chef Run complete in 2.328625001 seconds
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action enable (nginx::default line 3)
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Running report handlers
+ ** [out :: 85.195.119.250] [2013-01-25T13:10:10+00:00] INFO: Report handlers complete
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/config] action create (application::default line 4)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing directory[/home/ubuntu/applications/g9_backend/shared/sockets] action create (application::default line 4)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing bash[set permissions] action run (application::default line 12)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action enable (nginx::default line 3)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action enable (nginx::default line 3)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[ripple.yml] action create (application::default line 17)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Processing template[nginx.conf] action create (nginx::default line 8)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost.conf] action create (nginx::default line 27)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[redis.yml] action create (application::default line 25)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing template[nginx.conf] action create (nginx::default line 8)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[thin.yml] action create (application::default line 33)
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Chef Run complete in 2.347854245 seconds
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Running report handlers
+ ** [out :: 85.195.119.249] [2013-01-25T13:10:10+00:00] INFO: Report handlers complete
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[logrotate.conf] action create (application::default line 41)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost.conf] action create (nginx::default line 27)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action nothing (nginx::lb line 1)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing template[nginx.conf] action create (nginx::default line 8)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost.conf] action create (nginx::default line 27)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action nothing (nginx::lb line 1)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost_lb.conf] action create (nginx::lb line 5)
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Chef Run complete in 2.408032038 seconds
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Running report handlers
+ ** [out :: 85.195.119.247] [2013-01-25T13:10:10+00:00] INFO: Report handlers complete
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost_lb.conf] action create (nginx::lb line 5)
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Chef Run complete in 2.422827345 seconds
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Running report handlers
+ ** [out :: 85.195.119.246] [2013-01-25T13:10:10+00:00] INFO: Report handlers complete
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing package[nginx-light] action install (nginx::default line 1)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing service[nginx] action enable (nginx::default line 3)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[nginx.conf] action create (nginx::default line 8)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Processing template[vhost.conf] action create (nginx::default line 27)
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Chef Run complete in 2.428543517 seconds
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Running report handlers
+ ** [out :: 85.195.119.248] [2013-01-25T13:10:10+00:00] INFO: Report handlers complete
+    command finished in 3856ms

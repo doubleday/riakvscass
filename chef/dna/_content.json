@@ -1,0 +1,13 @@
+{
+  "run_list": ["role[standalone]"],
+  "network": {
+    "public_ip": "54.228.56.111"
+  },
+  "application": {
+    "rails_env": "content"
+  },
+  "nginx": {
+    "server_name": "g9-content.wooga.com"
+  }
+
+}

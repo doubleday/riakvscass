@@ -1,0 +1,12 @@
+site :opscode
+
+# cassandra
+cookbook 'silverware', github: 'infochimps-labs/ironfan-pantry', rel: 'cookbooks/silverware'
+cookbook 'volumes', github: 'infochimps-labs/ironfan-pantry', rel: 'cookbooks/volumes'
+cookbook 'cassandra', github: 'gbatalski/cassandra'
+
+# riak
+cookbook 'riak', github: 'doubleday/riak-chef-cookbook'
+
+# graphite
+cookbook 'graphite', github: 'hw-cookbooks/graphite'

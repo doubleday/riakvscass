@@ -1,0 +1,241 @@
+require 'json'
+require 'erb'
+
+def get_hosts
+  evalutator = Class.new do
+    attr_reader :defaults
+
+    def initialize
+      eval(IO.read('roles/base.rb'), binding)
+    end
+
+    %w[description env_run_lists name override_attributes run_list].each do |meth|
+      eval("def #{meth}(params); end")
+    end
+
+    def default_attributes(attr)
+      @defaults = attr
+    end
+  end
+
+  e = evalutator.new
+  e.defaults['hosts']
+end
+
+def target_ips(roles)
+  hosts = get_hosts
+  Hash[
+      roles.inject([]) do |servers, role|
+        hosts.each do |name, ip|
+          servers << [ip[1], name] if /^#{role}/ =~ name
+        end
+        servers
+      end
+  ]
+end
+
+
+# configuration ---------------------------
+default_run_options[:pty] = true
+
+if ARGV.length
+  names = ARGV[1..-1].inject([]) do |names, name|
+    if name == "prod"
+      names + %w(app riak redis monitoring)
+    else
+      names << name
+    end
+  end
+
+  reverse_dna = target_ips(names)
+  role :target, *reverse_dna.keys
+end
+
+set :port, 22
+set :user, 'ubuntu'
+set :ssh_options, {
+    :keys => [File.join(ENV["HOME"], ".ssh", "g9.pem")]
+}
+
+cwd = File.expand_path(File.dirname(__FILE__))
+cookbook_dir = '/home/ubuntu/.chef-cookbook'
+dna_dir = '/home/ubuntu/.chef'
+
+ssh_keys = [
+    'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApzv70PpQkk54fsV9PVBb0VEImyJf1zmWC0+V+V2/wbBMrSvxcKvJCCyqe4beF+31adr0n1OEJ7JTK6KozT1t+ApZ/M7IpzYeUm8D9u4oRtqcY19HGq3qGoe+MVo7ZpUniaVl5KYdC+elm/zSAh+o5yjkPq6rSCZTL6ykhfhgVb8PWF/7xR0cYKSOaaprupYwrFKYyzxpIxbhSZcl6LmZ0xbPpptJKszd/0/KzRd8KZeY0WOrFJjLHu9PLZ9uW6xhCzMmUcnd+bF/8f350LTcHkk+fuOeKHnUOnYHz4kfdn+83bIJQb5PeSeCokV1YXzXHcB58z6BeHUNi4LgMNZ5xQ== smees@smees-l1',
+    'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCu8qBITTnrw2B9xpprrADJRQLfmZJX3KR4bT+IsPkyt1wJaFuORc5yPradDDO6iZL4micesn4xKxbQ3y7AZKijeAqm54MR98v+dDyDJT3xdxtqmX+q+2LWSaFVc5FSJi9wC8t5XvdWnenjuXVJvY0nqIdHSD1IqwJrBXJfh5Dgsa1WDh9mv93XTZfcrfzyMrDarlxIwzHnGEZtLW8o2RCOGVIfERhLpXHPYw/dKNCVLMBW+WpRrT8iwhBWLG75bd2/UhI/+1ouubUu9GNEl9ZoZp1dZMDj4xW6nphrQD2rtjHkWub9SAdd7WbM1hSY0rS9HirAOr8mU0IL6EAinw3F daniel.doubleday@wooga.net'
+]
+
+namespace :local do
+
+  desc "merge ip info in local hosts file"
+  task :merge_local_etc_hosts do
+  end
+
+  desc "merge ip info in local hosts file"
+  task :generate_dna do
+    hosts = get_hosts
+    Dir.chdir('dna') do
+      Dir.glob('*.erb') do |erb|
+        basename = File.basename(erb, '.erb')
+        hosts.each do |name, ips|
+          if name.start_with?(basename)
+            node = {:private_ip => ips[0], :public_ip => ips[1]}
+            template = ERB.new(IO.read(erb))
+            IO.write("#{name}.json", template.result(binding))
+          end
+        end
+      end
+    end
+  end
+
+end
+
+# tasks -------------------------------------------
+
+namespace :chef do
+
+  desc "Initialize a fresh Ubuntu install"
+  task :init_server, :roles => :target do
+    msudo ['DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null',
+           'DEBIAN_FRONTEND=noninteractive apt-get --force-yes -fuy dist-upgrade > /dev/null',
+           'DEBIAN_FRONTEND=noninteractive apt-get autoremove -y',
+           'DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential ruby1.9.3',
+           'update-alternatives --install /usr/bin/ruby ruby /usr/bin/ruby1.9.3 400',
+           'update-alternatives --install /usr/bin/gem gem /usr/bin/gem1.9.3 400',
+           'update-alternatives --set ruby /usr/bin/ruby1.9.3',
+           'update-alternatives --set gem /usr/bin/gem1.9.3',
+           'gem install --no-ri --no-rdoc ohai chef',
+           "echo #{ARGV[1]} | sudo tee /etc/hostname",
+           'shutdown -r now']
+  end
+
+  desc "setup ssh keys and sudoer rights"
+  task :prepare_server, :roles => :target do
+    update_authorized_keys
+    cmd = 'echo "ubuntu ALL=NOPASSWD: ALL" > /etc/sudoers.d/ubuntu && chmod 0440 /etc/sudoers.d/ubuntu'
+    run %Q(echo "#{cmd}" > /tmp/bash)
+    sudo '/bin/bash /tmp/bash'
+    run 'rm -rf /tmp/bash'
+  end
+
+  desc "Install Cookbook Repository from cwd"
+  task :install_chef, :roles => :target do
+    run "mkdir -m 0775 -p #{cookbook_dir}"
+    sync_cookbook_repo
+    install_data_bag_key
+    install_dna
+  end
+
+  desc "Copy local key file for encrypted data bags"
+  task :install_data_bag_key, :roles => :target do
+    upload("data_bag_key", "#{cookbook_dir}/data_bag_key")
+  end
+
+  desc "Update .ssh authorized_keys"
+  task :update_authorized_keys, :roles => :target do
+    run 'mkdir -p ~/.ssh/'
+    run %Q(
+      echo '#{ssh_keys.join("\n")}' > ~/.ssh/authorized_keys
+    )
+  end
+
+  desc "Re-install Cookbook Repository from cwd"
+  task :sync_cookbook_repo, :roles => :target do
+    %w[cookbooks berkshelf dna roles data_bags].each do |dir|
+      rsync "#{cwd}/#{dir}/", "#{cookbook_dir}/#{dir}"
+    end
+  end
+
+  desc "Install ./dna/*.json for specified node"
+  task :install_dna, :roles => :target do
+    run "mkdir -m 0775 -p #{dna_dir}"
+    put %Q(file_cache_path "#{cookbook_dir}"
+cookbook_path ["#{cookbook_dir}/cookbooks", "#{cookbook_dir}/berkshelf"]
+role_path "#{cookbook_dir}/roles"
+data_bag_path "#{cookbook_dir}/data_bags"
+encrypted_data_bag_secret "#{cookbook_dir}/data_bag_key"), "#{dna_dir}/solo.rb", :via => :scp, :mode => "0644"
+    sync_dna
+  end
+
+  desc "Re-install ./dna/*.json for specified node"
+  task :sync_dna, :roles => :target do
+    find_servers_for_task(current_task).each do |server|
+      `rsync -avz -e "ssh -p#{port} -i #{ssh_options[:keys].first}" "#{cwd}/dna/#{reverse_dna[server.to_s]}.json" "#{user}@#{server}:#{dna_dir}/dna.json" \
+      --exclude ".svn" --exclude ".git" --delete`
+    end
+  end
+
+  desc "Execute Chef-Solo"
+  task :solo, :roles => :target do
+    #  -l debug
+    sudo_env "chef-solo -c #{dna_dir}/solo.rb -j #{dna_dir}/dna.json"
+  end
+
+  desc "Execute Chef-Solo in whyrun mode (dryrun)"
+  task :dryrun_solo, :roles => :target do
+    #  -l debug
+    sudo_env "chef-solo -W -c #{dna_dir}/solo.rb -j #{dna_dir}/dna.json"
+  end
+
+  desc "Sync cookbooks and run chef solo"
+  task :sync_solo, :roles => :target do
+    sync_dna
+    sync_cookbook_repo
+    solo
+    create_fingerprint
+  end
+
+  desc "create chef fingerprint for rolled out version"
+  task :create_fingerprint, :roles => :target do
+    sudo_env "find /home/ubuntu/.chef-cookbook/cookbooks /home/ubuntu/.chef-cookbook/data_bags /home/ubuntu/.chef-cookbook/dna /home/ubuntu/.chef-cookbook/roles -type f | sort | xargs md5sum  2>/dev/null | md5sum > /home/ubuntu/.chef-fingerprint"
+  end
+
+  desc "list chef fingerprintes"
+  task :list_fingerprints, :roles => :target do
+    sudo_env("cat /home/ubuntu/.chef-fingerprint") { |channel, stream, data| puts "#{reverse_dna[channel[:host]].ljust(15)} #{data}" }
+  end
+
+  desc "restart data dog agent"
+  task :restart_dd_agent, :roles => :target do
+    sudo_env "/etc/init.d/datadog-agent restart"
+  end
+
+end
+
+
+# helpers --------------------------------------------------
+
+def sudo_env(cmd, &block)
+  run("#{sudo} -i #{cmd}", {}, &block)
+end
+
+def msudo(cmds)
+  cmds.each do |cmd|
+    sudo_env cmd
+    #sudo "bash -i -c '#{cmd}'"
+  end
+end
+
+def mrun(cmds)
+  cmds.each do |cmd|
+    run cmd
+  end
+end
+
+def rsync(from, to)
+  find_servers_for_task(current_task).each do |server|
+    puts `rsync -avz -e "ssh -p#{port} -i #{ssh_options[:keys].first}" "#{from}" "#{user}@#{server}:#{to}" \
+      --exclude ".svn" --exclude ".git" --delete`
+  end
+end
+
+def bash(cmd)
+  run "bash --login -c '#{cmd}'"
+end
+
+def bash_sudo(cmd)
+  run %Q(echo "#{cmd}" > /tmp/bash)
+  sudo_env "/bin/bash /tmp/bash"
+  run "rm /tmp/bash"
+end
