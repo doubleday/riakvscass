@@ -1,0 +1,11 @@
+{
+  "run_list": [
+    "role[base]",
+    "recipe[java]"
+  ],
+  "java": {
+    "oracle": {
+      "accept_oracle_download_terms": true
+    }
+  }
+}

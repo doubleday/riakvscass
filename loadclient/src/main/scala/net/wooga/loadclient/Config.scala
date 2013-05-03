@@ -11,6 +11,8 @@ object Config {
   }
 
   lazy val riakServers = (config\"riak"\"servers").as[List[String]]
-  lazy val riakBucket = (config\"riak"\"bucket").as[String]
+  lazy val riakBucket  = (config\"riak"\"bucket").as[String]
+  lazy val numServers  = (config\"numServers").as[Int]
+  lazy val graphite    = (config\"graphite").as[Boolean]
 
 }

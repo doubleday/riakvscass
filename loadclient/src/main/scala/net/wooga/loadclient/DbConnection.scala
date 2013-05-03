@@ -17,13 +17,12 @@ class Riak extends DbConnection {
   lazy val bucket = myPbClient.fetchBucket(bucketName).execute()
 
   def read(key: String): Try[String] = {
-    Stats.readCounter.inc(1)
     Try(Option(bucket.fetch(key).execute()).map { _.getValueAsString } getOrElse null)
   }
 
 
   def write(key: String, value: String) = {
-    Try(bucket.store(key, value).execute())
+    Try(bucket.store(key, value).withoutFetch().execute())
   }
 
 

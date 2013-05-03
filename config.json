@@ -1,8 +1,10 @@
 {
-    "riak": {
-        "bucket": "TestBucket",
-        "servers": [
-            "127.0.0.1"
-        ]
-    }
+  "numServers": 1,
+  "graphite": false,
+  "riak": {
+    "bucket": "TestBucket",
+    "servers": [
+      "127.0.0.1"
+    ]
+  }
 }

@@ -12,27 +12,19 @@ object Main extends App {
   implicit val system = ActorSystem("LoadTest")
   val masterControl = system.actorOf(Props(new MasterControl(DbConnection.riak)), "MasterControl")
 
+  if (args.length > 0) {
+    masterControl ! MasterControl.Start
 
-  val testActor = actor(new Act {
-    become {
-      case 'start => {
-        masterControl ! MasterControl.Start
-      }
-      case 'done => {
-        val dbAccessor = system.actorFor("akka://LoadTest/user/MasterControl/DbAccessor")
-        println("Calling ... " + dbAccessor)
-        dbAccessor ! Read(Random.nextLong(),"Name")
-      }
-      case Response(cid, key, value) => println("Received resonse for key=" + key + " value=" + value)
-      case Failure(cid, error) => println("Received error: " + error)
-      case _ => println("Message not understood")
+
+    if (args(0) == "CreateUsers") {
+      masterControl ! MasterControl.CreateUsers(Integer.parseInt(args(1)))
+
+    } else if (args(0) == "RunLoadTest") {
+      masterControl ! MasterControl.RunLoadTest(Integer.parseInt(args(1)))
+
     }
-  })
 
-  testActor ! 'start
-
-  Thread.sleep(200000)
-//
-  masterControl ! MasterControl.Stop
+    system.awaitTermination()
+  }
 
 }

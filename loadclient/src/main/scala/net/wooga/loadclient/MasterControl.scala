@@ -1,12 +1,19 @@
 package net.wooga.loadclient
 
-import akka.actor.{Props, Actor}
+import akka.actor.{ActorRef, Props, Actor}
 import akka.event.Logging
 import akka.routing.RoundRobinRouter
 
 object MasterControl {
+
   case object Start
+
   case object Stop
+
+  case class CreateUsers(count: Int)
+
+  case class RunLoadTest(concurrentUsers: Int)
+
 }
 
 class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
@@ -17,13 +24,36 @@ class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
 
   def receive = {
     case Start => {
-      context.actorOf(Props(new DbAccessor(connectionFactory())).withRouter(RoundRobinRouter(nrOfInstances = 10)), "DbAccessor")
-      (0 until 1000).foreach { i =>
-        val user = context.actorOf(Props(new User("Name")))
-        user ! User.Wakeup
-      }
-      sender ! 'done
+      val numInstances = Config.numServers * 10
+      context.actorOf(Props(new DbAccessor(connectionFactory()))
+        .withRouter(RoundRobinRouter(nrOfInstances = numInstances)), "DbAccessor")
     }
+
+    // create users
+
+    case CreateUsers(count) => {
+      log.info("Start creating {} users", count)
+      val initializer = context.actorOf(Props[ContentInitializer])
+      initializer ! ContentInitializer.CreateUsers(0, count)
+    }
+    case ContentInitializer.Done => {
+      log.info("Finished creating users. Shutting down")
+      self ! Stop
+    }
+    case ContentInitializer.Error => {
+      log.info("Error creating users. Shutting down")
+      self ! Stop
+    }
+
+    // run the load test
+
+    case RunLoadTest(users) => {
+      log.info("Starting load test")
+      val loadController = context.actorOf(Props[LoadController])
+      loadController ! LoadController.StartTest(users)
+    }
+
+
     case Stop => {
       context.system.shutdown()
     }

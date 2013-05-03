@@ -126,7 +126,7 @@
             <manifest>
               <classpathPrefix>lib/</classpathPrefix>
               <addClasspath>true</addClasspath>
-              <mainClass>net.wooga.loadclient.Main$</mainClass>
+              <mainClass>net.wooga.loadclient.Main</mainClass>
             </manifest>
           </archive>
         </configuration>

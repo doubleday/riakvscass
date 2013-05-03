@@ -40,7 +40,7 @@ default_run_options[:pty] = true
 
 if ARGV.length
   names = ARGV[1..-1].inject([]) do |names, name|
-    if name == "prod"
+    if name == 'prod'
       names + %w(app riak redis monitoring)
     else
       names << name
@@ -54,7 +54,7 @@ end
 set :port, 22
 set :user, 'ubuntu'
 set :ssh_options, {
-    :keys => [File.join(ENV["HOME"], ".ssh", "g9.pem")]
+    :keys => [File.join(ENV['HOME'], '.ssh', 'g9.pem')]
 }
 
 cwd = File.expand_path(File.dirname(__FILE__))
@@ -68,11 +68,11 @@ ssh_keys = [
 
 namespace :local do
 
-  desc "merge ip info in local hosts file"
+  desc 'merge ip info in local hosts file'
   task :merge_local_etc_hosts do
   end
 
-  desc "merge ip info in local hosts file"
+  desc 'merge ip info in local hosts file'
   task :generate_dna do
     hosts = get_hosts
     Dir.chdir('dna') do
@@ -95,7 +95,7 @@ end
 
 namespace :chef do
 
-  desc "Initialize a fresh Ubuntu install"
+  desc 'Initialize a fresh Ubuntu install'
   task :init_server, :roles => :target do
     msudo ['DEBIAN_FRONTEND=noninteractive apt-get update > /dev/null',
            'DEBIAN_FRONTEND=noninteractive apt-get --force-yes -fuy dist-upgrade > /dev/null',
@@ -110,7 +110,7 @@ namespace :chef do
            'shutdown -r now']
   end
 
-  desc "setup ssh keys and sudoer rights"
+  desc 'setup ssh keys and sudoer rights'
   task :prepare_server, :roles => :target do
     update_authorized_keys
     cmd = 'echo "ubuntu ALL=NOPASSWD: ALL" > /etc/sudoers.d/ubuntu && chmod 0440 /etc/sudoers.d/ubuntu'
@@ -119,7 +119,7 @@ namespace :chef do
     run 'rm -rf /tmp/bash'
   end
 
-  desc "Install Cookbook Repository from cwd"
+  desc 'Install Cookbook Repository from cwd'
   task :install_chef, :roles => :target do
     run "mkdir -m 0775 -p #{cookbook_dir}"
     sync_cookbook_repo
@@ -127,12 +127,12 @@ namespace :chef do
     install_dna
   end
 
-  desc "Copy local key file for encrypted data bags"
+  desc 'Copy local key file for encrypted data bags'
   task :install_data_bag_key, :roles => :target do
-    upload("data_bag_key", "#{cookbook_dir}/data_bag_key")
+    upload('data_bag_key', "#{cookbook_dir}/data_bag_key")
   end
 
-  desc "Update .ssh authorized_keys"
+  desc 'Update .ssh authorized_keys'
   task :update_authorized_keys, :roles => :target do
     run 'mkdir -p ~/.ssh/'
     run %Q(
@@ -140,25 +140,25 @@ namespace :chef do
     )
   end
 
-  desc "Re-install Cookbook Repository from cwd"
+  desc 'Re-install Cookbook Repository from cwd'
   task :sync_cookbook_repo, :roles => :target do
     %w[cookbooks berkshelf dna roles data_bags].each do |dir|
       rsync "#{cwd}/#{dir}/", "#{cookbook_dir}/#{dir}"
     end
   end
 
-  desc "Install ./dna/*.json for specified node"
+  desc 'Install ./dna/*.json for specified node'
   task :install_dna, :roles => :target do
     run "mkdir -m 0775 -p #{dna_dir}"
     put %Q(file_cache_path "#{cookbook_dir}"
 cookbook_path ["#{cookbook_dir}/cookbooks", "#{cookbook_dir}/berkshelf"]
 role_path "#{cookbook_dir}/roles"
 data_bag_path "#{cookbook_dir}/data_bags"
-encrypted_data_bag_secret "#{cookbook_dir}/data_bag_key"), "#{dna_dir}/solo.rb", :via => :scp, :mode => "0644"
+encrypted_data_bag_secret "#{cookbook_dir}/data_bag_key"), "#{dna_dir}/solo.rb", :via => :scp, :mode => '0644'
     sync_dna
   end
 
-  desc "Re-install ./dna/*.json for specified node"
+  desc 'Re-install ./dna/*.json for specified node'
   task :sync_dna, :roles => :target do
     find_servers_for_task(current_task).each do |server|
       `rsync -avz -e "ssh -p#{port} -i #{ssh_options[:keys].first}" "#{cwd}/dna/#{reverse_dna[server.to_s]}.json" "#{user}@#{server}:#{dna_dir}/dna.json" \
@@ -166,19 +166,19 @@ encrypted_data_bag_secret "#{cookbook_dir}/data_bag_key"), "#{dna_dir}/solo.rb",
     end
   end
 
-  desc "Execute Chef-Solo"
+  desc 'Execute Chef-Solo'
   task :solo, :roles => :target do
     #  -l debug
     sudo_env "chef-solo -c #{dna_dir}/solo.rb -j #{dna_dir}/dna.json"
   end
 
-  desc "Execute Chef-Solo in whyrun mode (dryrun)"
+  desc 'Execute Chef-Solo in whyrun mode (dryrun)'
   task :dryrun_solo, :roles => :target do
     #  -l debug
     sudo_env "chef-solo -W -c #{dna_dir}/solo.rb -j #{dna_dir}/dna.json"
   end
 
-  desc "Sync cookbooks and run chef solo"
+  desc 'Sync cookbooks and run chef solo'
   task :sync_solo, :roles => :target do
     sync_dna
     sync_cookbook_repo
@@ -186,19 +186,19 @@ encrypted_data_bag_secret "#{cookbook_dir}/data_bag_key"), "#{dna_dir}/solo.rb",
     create_fingerprint
   end
 
-  desc "create chef fingerprint for rolled out version"
+  desc 'create chef fingerprint for rolled out version'
   task :create_fingerprint, :roles => :target do
-    sudo_env "find /home/ubuntu/.chef-cookbook/cookbooks /home/ubuntu/.chef-cookbook/data_bags /home/ubuntu/.chef-cookbook/dna /home/ubuntu/.chef-cookbook/roles -type f | sort | xargs md5sum  2>/dev/null | md5sum > /home/ubuntu/.chef-fingerprint"
+    sudo_env 'find /home/ubuntu/.chef-cookbook/cookbooks /home/ubuntu/.chef-cookbook/data_bags /home/ubuntu/.chef-cookbook/dna /home/ubuntu/.chef-cookbook/roles -type f | sort | xargs md5sum  2>/dev/null | md5sum > /home/ubuntu/.chef-fingerprint'
   end
 
-  desc "list chef fingerprintes"
+  desc 'list chef fingerprintes'
   task :list_fingerprints, :roles => :target do
-    sudo_env("cat /home/ubuntu/.chef-fingerprint") { |channel, stream, data| puts "#{reverse_dna[channel[:host]].ljust(15)} #{data}" }
+    sudo_env('cat /home/ubuntu/.chef-fingerprint') { |channel, stream, data| puts "#{reverse_dna[channel[:host]].ljust(15)} #{data}" }
   end
 
-  desc "restart data dog agent"
+  desc 'restart data dog agent'
   task :restart_dd_agent, :roles => :target do
-    sudo_env "/etc/init.d/datadog-agent restart"
+    sudo_env '/etc/init.d/datadog-agent restart'
   end
 
 end
@@ -236,6 +236,6 @@ end
 
 def bash_sudo(cmd)
   run %Q(echo "#{cmd}" > /tmp/bash)
-  sudo_env "/bin/bash /tmp/bash"
-  run "rm /tmp/bash"
+  sudo_env '/bin/bash /tmp/bash'
+  run 'rm /tmp/bash'
 end
