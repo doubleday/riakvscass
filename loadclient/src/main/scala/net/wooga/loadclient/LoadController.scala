@@ -35,6 +35,7 @@ class LoadController extends Actor {
     }
 
     case User.Logout => {
+      Stats.loginCounter.inc(1)
       forkNewUser()
     }
   }

@@ -20,11 +20,9 @@ class Riak extends DbConnection {
     Try(Option(bucket.fetch(key).execute()).map { _.getValueAsString } getOrElse null)
   }
 
-
   def write(key: String, value: String) = {
     Try(bucket.store(key, value).withoutFetch().execute())
   }
-
 
   def shutdown() = myPbClient.shutdown()
 }

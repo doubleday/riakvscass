@@ -21,6 +21,9 @@ object Stats {
   lazy val readCounter = counter("read")
   lazy val writeCounter = counter("write")
   lazy val errorCounter = counter("error")
+  lazy val timeoutCounter = counter("timeout")
+  lazy val notFoundCounter = counter("notfound")
+  lazy val loginCounter = counter("login")
 
   lazy val readHisto: Histogram = histo("readHisto")
   lazy val writeHisto: Histogram = histo("writeHisto")

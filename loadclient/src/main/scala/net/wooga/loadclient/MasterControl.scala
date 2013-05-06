@@ -7,11 +7,9 @@ import akka.routing.RoundRobinRouter
 object MasterControl {
 
   case object Start
-
   case object Stop
 
   case class CreateUsers(count: Int)
-
   case class RunLoadTest(concurrentUsers: Int)
 
 }
@@ -27,6 +25,10 @@ class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
       val numInstances = Config.numServers * 10
       context.actorOf(Props(new DbAccessor(connectionFactory()))
         .withRouter(RoundRobinRouter(nrOfInstances = numInstances)), "DbAccessor")
+    }
+
+    case Stop => {
+      context.system.shutdown()
     }
 
     // create users
@@ -53,10 +55,6 @@ class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
       loadController ! LoadController.StartTest(users)
     }
 
-
-    case Stop => {
-      context.system.shutdown()
-    }
   }
 
 }

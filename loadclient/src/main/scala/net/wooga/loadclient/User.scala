@@ -59,9 +59,11 @@ class User(userId: String) extends Actor with FSM[State, Data] {
       goto(Writing) using WriteBack(Random.nextLong(),value)
     }
     case Event(Failure(rid, error), Correlation(cid, tstamp)) if (rid == cid) => {
+      Stats.errorCounter.inc(1)
       goto(Idle) using Error
     }
     case Event(StateTimeout, Correlation(cid, tstamp)) => {
+      Stats.timeoutCounter.inc(1)
       goto(Idle) using Error
     }
     case e:Event => {
@@ -78,9 +80,11 @@ class User(userId: String) extends Actor with FSM[State, Data] {
       goto(Idle) using Uninitialized
     }
     case Event(Failure(rid, error), Correlation(cid, tstamp)) if (rid == cid) => {
+      Stats.errorCounter.inc(1)
       goto(Idle) using Error
     }
     case Event(StateTimeout, Correlation(cid, tstamp)) => {
+      Stats.timeoutCounter.inc(1)
       goto(Idle) using Error
     }
     case e:Event => {
@@ -109,7 +113,6 @@ class User(userId: String) extends Actor with FSM[State, Data] {
     case _ -> Idle => {
       (nextStateData: @unchecked) match {
         case Error => {
-          Stats.errorCounter.inc(1)
           context.parent ! Logout
           context.stop(self)
         }

@@ -12,8 +12,8 @@ default_attributes(
     'package' => {
       'version' => {
         'major' => '1',
-        'minor' => '2',
-        'incremental' => '1-1'
+        'minor' => '3',
+        'incremental' => '1~precise1'
       }
     },
     'config' => {
