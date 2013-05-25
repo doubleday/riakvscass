@@ -4,6 +4,7 @@ import akka.actor.{Actor, FSM}
 import scala.concurrent.duration.{FiniteDuration, Duration}
 import java.util.concurrent.TimeUnit
 import scala.util.Random
+import DeferredSender._
 
 object User {
 
@@ -14,6 +15,7 @@ object User {
 
   // sent events
   case object Logout
+  case object LogoutAfterError
 
   // states
   sealed trait State
@@ -36,13 +38,13 @@ import DbAccessor._
 
 class User(userId: String) extends Actor with FSM[State, Data] {
 
+  val timeout = Duration(2, TimeUnit.SECONDS)
+
   var remainingRequests = 10
 
   lazy val dbAccessor = context.actorFor("akka://LoadTest/user/MasterControl/DbAccessor")
 
   def now = System.currentTimeMillis
-
-  implicit def toSeconds(secs: Int): FiniteDuration = Duration(secs, TimeUnit.SECONDS)
 
   startWith(Idle, Uninitialized)
 
@@ -51,7 +53,7 @@ class User(userId: String) extends Actor with FSM[State, Data] {
       goto(Reading) using Correlation(Random.nextLong())
   }
 
-  when(Reading, stateTimeout = 5) {
+  when(Reading, stateTimeout = timeout) {
     case Event(Response(rid, key, value), Correlation(cid, tstamp)) if (rid == cid) => {
       log.debug("Received response with {}", cid)
       Stats.readCounter.inc(1)
@@ -72,7 +74,7 @@ class User(userId: String) extends Actor with FSM[State, Data] {
     } // late event
   }
 
-  when(Writing, stateTimeout = 5) {
+  when(Writing, stateTimeout = timeout) {
     case Event(Response(rid, key, value), WriteBack(cid,_,tstamp)) if (rid == cid) => {
       log.debug("Received response with {}", cid)
       Stats.writeCounter.inc(1)
@@ -113,19 +115,20 @@ class User(userId: String) extends Actor with FSM[State, Data] {
     case _ -> Idle => {
       (nextStateData: @unchecked) match {
         case Error => {
-          context.parent ! Logout
-          context.stop(self)
+          context.parent ! LogoutAfterError
         }
         case Uninitialized => {
           remainingRequests -= 1
           if (remainingRequests > 0)
-            context.system.scheduler.scheduleOnce(10 + Random.nextInt(30), self, Wakeup)(context.dispatcher)
+            self.sendLater(Wakeup, (10 + Random.nextInt(30)) * 1000)
 
           else {
             context.parent ! Logout
-            context.stop(self)
           }
         }
+//        case Response => {
+//          log.debug("olad response")
+//        }
       }
     }
   }

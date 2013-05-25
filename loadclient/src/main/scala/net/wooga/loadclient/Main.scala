@@ -3,28 +3,37 @@ package net.wooga.loadclient
 import akka.actor.Props
 import akka.actor.ActorDSL._
 import akka.actor.ActorSystem
-import net.wooga.loadclient.DbAccessor.{Failure, Response, Read}
-import scala.util.Random
 
 
 object Main extends App {
 
-  implicit val system = ActorSystem("LoadTest")
-  val masterControl = system.actorOf(Props(new MasterControl(DbConnection.riak)), "MasterControl")
-
   if (args.length > 0) {
+
+    val target  = args(0)
+    val command = args(1)
+
+    implicit val system = ActorSystem("LoadTest")
+
+    val (factory, hosts) = target match {
+      case "riak"     => (DbConnection.riak, Config.riakServers)
+      case "cassadra" => (DbConnection.cassandra, Config.cassandraServers)
+    }
+
+    val masterControl = system.actorOf(Props(new MasterControl(factory, hosts)), "MasterControl")
     masterControl ! MasterControl.Start
 
+    if (command == "CreateUsers") {
+      masterControl ! MasterControl.CreateUsers(Integer.parseInt(args(2)))
 
-    if (args(0) == "CreateUsers") {
-      masterControl ! MasterControl.CreateUsers(Integer.parseInt(args(1)))
-
-    } else if (args(0) == "RunLoadTest") {
-      masterControl ! MasterControl.RunLoadTest(Integer.parseInt(args(1)))
+    } else if (command == "RunLoadTest") {
+      masterControl ! MasterControl.RunLoadTest(Integer.parseInt(args(2)))
 
     }
 
     system.awaitTermination()
+
+  } else {
+    System.err.println("Nothing to do")
   }
 
 }

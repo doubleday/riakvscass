@@ -1,5 +1,4 @@
 {
-  "numServers": 1,
   "graphite": false,
   "riak": {
     "bucket": "TestBucket",

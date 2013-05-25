@@ -10,9 +10,11 @@ object Config {
     case _ => throw new IllegalStateException("TEST_CONFIG not set")
   }
 
+  lazy val graphite    = (config\"graphite").as[Boolean]
+
   lazy val riakServers = (config\"riak"\"servers").as[List[String]]
   lazy val riakBucket  = (config\"riak"\"bucket").as[String]
-  lazy val numServers  = (config\"numServers").as[Int]
-  lazy val graphite    = (config\"graphite").as[Boolean]
+
+  lazy val cassandraServers = (config\"cassandra"\"servers").as[List[String]]
 
 }

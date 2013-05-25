@@ -14,7 +14,7 @@ object MasterControl {
 
 }
 
-class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
+class MasterControl(connectionFactory: DbConnection.Factory, hosts: List[String]) extends Actor {
 
   import MasterControl._
 
@@ -22,9 +22,7 @@ class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
 
   def receive = {
     case Start => {
-      val numInstances = Config.numServers * 10
-      context.actorOf(Props(new DbAccessor(connectionFactory()))
-        .withRouter(RoundRobinRouter(nrOfInstances = numInstances)), "DbAccessor")
+      context.actorOf(Props(new DbAccessor(connectionFactory, hosts)), "DbAccessor")
     }
 
     case Stop => {
@@ -51,7 +49,7 @@ class MasterControl(connectionFactory: DbConnection.Factory) extends Actor {
 
     case RunLoadTest(users) => {
       log.info("Starting load test")
-      val loadController = context.actorOf(Props[LoadController])
+      val loadController = context.actorOf(Props[LoadController], "LoadController")
       loadController ! LoadController.StartTest(users)
     }
 

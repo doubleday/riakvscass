@@ -1,18 +1,18 @@
 package net.wooga.loadclient
-import scala.util.{Try, Random}
+import scala.util.{Success, Try, Random}
 import com.basho.riak.client.RiakFactory
 
 trait DbConnection {
-  implicit
+  def hostName: String
   def shutdown()
   def read(key: String): Try[String]
   def write(key: String, value: String): Try[Any]
 }
 
-class Riak extends DbConnection {
+class Riak(val hostName: String) extends DbConnection {
 
   val bucketName = Config.riakBucket
-  val myPbClient = RiakFactory.pbcClient(Random.shuffle(Config.riakServers).head, 8087)
+  val myPbClient = RiakFactory.pbcClient(hostName, 8087)
 
   lazy val bucket = myPbClient.fetchBucket(bucketName).execute()
 
@@ -29,8 +29,16 @@ class Riak extends DbConnection {
 
 object DbConnection {
 
-  type Factory = () => DbConnection
+  type Factory = (String) => Option[DbConnection]
 
-  def riak: Factory = () => new Riak
+  def riak: Factory = (host: String) => {
+      val riak = new Riak(host)
+      riak.read("test") match {
+        case Success(_) => Some(riak)
+        case _ => None
+      }
+  }
+
+  def cassandra: Factory = (host: String) => ???
 
 }
