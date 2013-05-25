@@ -15,6 +15,8 @@ object Config {
   lazy val riakServers = (config\"riak"\"servers").as[List[String]]
   lazy val riakBucket  = (config\"riak"\"bucket").as[String]
 
-  lazy val cassandraServers = (config\"cassandra"\"servers").as[List[String]]
+  lazy val cassandraServers      = (config\"cassandra"\"servers").as[List[String]]
+  lazy val cassandraKeyspace     = (config\"cassandra"\"keyspace").as[String]
+  lazy val cassandraColumnFamily = (config\"cassandra"\"columnFamily").as[String]
 
 }

@@ -1,11 +1,23 @@
 package net.wooga.loadclient
+
 import scala.util.{Success, Try, Random}
 import com.basho.riak.client.RiakFactory
+import me.prettyprint.hector.api.exceptions.HectorException
+import me.prettyprint.hector.api.beans.HColumn
+import me.prettyprint.hector.api.query.{ColumnQuery, QueryResult}
+import me.prettyprint.hector.api.factory.HFactory
+import me.prettyprint.cassandra.serializers.StringSerializer
+import me.prettyprint.hector.api.mutation.Mutator
+import me.prettyprint.hector.api.{Cluster, Keyspace}
+import me.prettyprint.cassandra.service.CassandraHostConfigurator
 
 trait DbConnection {
   def hostName: String
+
   def shutdown()
+
   def read(key: String): Try[String]
+
   def write(key: String, value: String): Try[Any]
 }
 
@@ -27,18 +39,43 @@ class Riak(val hostName: String) extends DbConnection {
   def shutdown() = myPbClient.shutdown()
 }
 
+class Cassandra(val hostName: String) extends DbConnection {
+
+  val cluster = HFactory.createCluster("Test Cluster", new CassandraHostConfigurator(hostName + ":9160"))
+  val keyspaceOperator = HFactory.createKeyspace(Config.cassandraKeyspace, cluster)
+
+  def read(key: String): Try[String] = {
+    val columnQuery = HFactory.createStringColumnQuery(keyspaceOperator)
+    columnQuery.setColumnFamily(Config.cassandraColumnFamily).setKey(key).setName("0")
+    Try(Option(columnQuery.execute().get()).map { _.getValue } getOrElse null)
+  }
+
+  def write(key: String, value: String) = {
+    val mutator : Mutator[String] = HFactory.createMutator(keyspaceOperator, StringSerializer.get())
+    Try(mutator.insert(key, Config.cassandraColumnFamily, HFactory.createStringColumn("0", value)))
+  }
+
+  def shutdown() = HFactory.shutdownCluster(cluster)
+}
+
 object DbConnection {
 
   type Factory = (String) => Option[DbConnection]
 
   def riak: Factory = (host: String) => {
-      val riak = new Riak(host)
-      riak.read("test") match {
-        case Success(_) => Some(riak)
-        case _ => None
-      }
+    val riak = new Riak(host)
+    riak.read("test") match {
+      case Success(_) => Some(riak)
+      case _ => None
+    }
   }
 
-  def cassandra: Factory = (host: String) => ???
+  def cassandra: Factory = (host: String) => {
+    val cassandra = new Cassandra(host)
+    cassandra.read("test") match {
+      case Success(_) => Some(cassandra)
+      case _ => None
+    }
+  }
 
 }

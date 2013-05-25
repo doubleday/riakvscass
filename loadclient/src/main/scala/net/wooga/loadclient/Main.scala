@@ -16,7 +16,7 @@ object Main extends App {
 
     val (factory, hosts) = target match {
       case "riak"     => (DbConnection.riak, Config.riakServers)
-      case "cassadra" => (DbConnection.cassandra, Config.cassandraServers)
+      case "cassandra" => (DbConnection.cassandra, Config.cassandraServers)
     }
 
     val masterControl = system.actorOf(Props(new MasterControl(factory, hosts)), "MasterControl")
