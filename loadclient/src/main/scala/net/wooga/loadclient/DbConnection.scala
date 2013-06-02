@@ -9,7 +9,7 @@ import me.prettyprint.hector.api.factory.HFactory
 import me.prettyprint.cassandra.serializers.StringSerializer
 import me.prettyprint.hector.api.mutation.Mutator
 import me.prettyprint.hector.api.{Cluster, Keyspace}
-import me.prettyprint.cassandra.service.CassandraHostConfigurator
+import me.prettyprint.cassandra.service.{CassandraHost, ThriftCluster, FailoverPolicy, CassandraHostConfigurator}
 
 trait DbConnection {
   def hostName: String
@@ -29,7 +29,9 @@ class Riak(val hostName: String) extends DbConnection {
   lazy val bucket = myPbClient.fetchBucket(bucketName).execute()
 
   def read(key: String): Try[String] = {
-    Try(Option(bucket.fetch(key).execute()).map { _.getValueAsString } getOrElse null)
+    Try(Option(bucket.fetch(key).execute()).map {
+      _.getValueAsString
+    } getOrElse null)
   }
 
   def write(key: String, value: String) = {
@@ -41,17 +43,25 @@ class Riak(val hostName: String) extends DbConnection {
 
 class Cassandra(val hostName: String) extends DbConnection {
 
-  val cluster = HFactory.createCluster("Test Cluster", new CassandraHostConfigurator(hostName + ":9160"))
-  val keyspaceOperator = HFactory.createKeyspace(Config.cassandraKeyspace, cluster)
+  //  val cluster = HFactory.createCluster("Test", new CassandraHostConfigurator(hostName + ":9160"))
+  val cluster = {
+    val configurator = new CassandraHostConfigurator(hostName + ":9160")
+    configurator.setMaxActive(1)
+    new ThriftCluster("Test", configurator, null)
+  }
+
+  val keyspaceOperator = HFactory.createKeyspace(Config.cassandraKeyspace, cluster, HFactory.createDefaultConsistencyLevelPolicy(), FailoverPolicy.FAIL_FAST)
 
   def read(key: String): Try[String] = {
     val columnQuery = HFactory.createStringColumnQuery(keyspaceOperator)
     columnQuery.setColumnFamily(Config.cassandraColumnFamily).setKey(key).setName("0")
-    Try(Option(columnQuery.execute().get()).map { _.getValue } getOrElse null)
+    Try(Option(columnQuery.execute().get()).map {
+      _.getValue
+    } getOrElse null)
   }
 
   def write(key: String, value: String) = {
-    val mutator : Mutator[String] = HFactory.createMutator(keyspaceOperator, StringSerializer.get())
+    val mutator: Mutator[String] = HFactory.createMutator(keyspaceOperator, StringSerializer.get())
     Try(mutator.insert(key, Config.cassandraColumnFamily, HFactory.createStringColumn("0", value)))
   }
 

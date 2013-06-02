@@ -42,7 +42,9 @@ class DbAccessor(connectionFactory: DbConnection.Factory, hosts: List[String]) e
   }
 
   def startProxy(host: String): ActorRef =
-    context.actorOf(Props(new DBProxy(connectionFactory(host))).withRouter(RoundRobinRouter(nrOfInstances = 10)), "DBProxy-" + host)
+    context.actorOf(Props(new DBProxy(connectionFactory(host)))
+      .withRouter(RoundRobinRouter(nrOfInstances = 20))
+      .withDispatcher("akka.actor.db-access-balancer"), "DBProxy-" + host)
 
   def scheduleCheck(host: String) = {
     context.system.scheduler.scheduleOnce(Duration(10, TimeUnit.SECONDS), self, CheckHost(host))

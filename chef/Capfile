@@ -147,6 +147,13 @@ namespace :chef do
     end
   end
 
+  desc 'Sync load client binary'
+  task :sync_load_client, :roles => :target do
+    run 'mkdir -p ~/loadclient'
+    rsync "#{cwd}/../loadclient/target/", "~/loadclient/"
+    rsync "#{cwd}/../ec2config.json", "~/loadclient/ec2config.json"
+  end
+
   desc 'Install ./dna/*.json for specified node'
   task :install_dna, :roles => :target do
     run "mkdir -m 0775 -p #{dna_dir}"
@@ -225,7 +232,7 @@ end
 
 def rsync(from, to)
   find_servers_for_task(current_task).each do |server|
-    puts `rsync -avz -e "ssh -p#{port} -i #{ssh_options[:keys].first}" "#{from}" "#{user}@#{server}:#{to}" \
+    puts `rsync -L -avz -e "ssh -p#{port} -i #{ssh_options[:keys].first}" "#{from}" "#{user}@#{server}:#{to}" \
       --exclude ".svn" --exclude ".git" --delete`
   end
 end

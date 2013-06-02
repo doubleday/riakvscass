@@ -26,7 +26,8 @@ object Main extends App {
       masterControl ! MasterControl.CreateUsers(Integer.parseInt(args(2)))
 
     } else if (command == "RunLoadTest") {
-      masterControl ! MasterControl.RunLoadTest(Integer.parseInt(args(2)))
+
+      masterControl ! MasterControl.RunLoadTest(Integer.parseInt(args(2)), Integer.parseInt(args(3)))
 
     }
 

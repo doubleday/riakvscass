@@ -38,7 +38,7 @@ import DbAccessor._
 
 class User(userId: String) extends Actor with FSM[State, Data] {
 
-  val timeout = Duration(2, TimeUnit.SECONDS)
+  val timeout = Duration(5, TimeUnit.SECONDS)
 
   var remainingRequests = 10
 

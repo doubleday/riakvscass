@@ -1,0 +1,15 @@
+{
+  "run_list": [
+    "role[cassandra]"
+  ],
+  "java": {
+    "install_flavor": "oracle",
+    "oracle": {
+      "accept_oracle_download_terms": true
+    }
+  },
+  "cassandra": {
+    "seeds": "10.50.93.143",
+    "listen_addr": "10.50.93.143"
+  }
+}

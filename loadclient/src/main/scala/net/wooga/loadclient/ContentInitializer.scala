@@ -20,7 +20,7 @@ class ContentInitializer extends Actor {
 
   lazy val dbAccessor = context.actorFor("akka://LoadTest/user/MasterControl/DbAccessor")
 
-  val queueSize = 100
+  val queueSize = Config.riakBucket.size * 2
   var usersToCreate = 0
   var nextUserId = 0
 
@@ -41,8 +41,11 @@ class ContentInitializer extends Actor {
       usersToCreate = to - from
       (from until from + queueSize).foreach( (i) => createUser() )
     }
+
     case DbAccessor.Response(_,_,_) => {
       usersToCreate -= 1
+      Stats.userCreatedCounter.inc()
+
       if (usersToCreate > 0) createUser()
       else {
         context.parent ! Done

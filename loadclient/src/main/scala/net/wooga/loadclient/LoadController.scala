@@ -3,10 +3,12 @@ package net.wooga.loadclient
 import akka.actor.{Props, Actor}
 import java.util.concurrent.TimeUnit
 import akka.event.Logging
+import scala.util.Random
 
 object LoadController {
 
-  case class StartTest(concurrentUsers: Int)
+  case class ConfigureTest(minUser: Int, maxUser: Int)
+  case class StartTest()
 }
 
 class LoadController extends Actor {
@@ -18,14 +20,15 @@ class LoadController extends Actor {
 
   val log = Logging(context.system, this)
 
-  val maxUser = 1000000
-  var numUsers = 0
+  var minUser = 0
+  var maxUser = 1000000
   var nextUserId = 0
   var lastTimeout = 0l
 
   def nextUserName() = {
     nextUserId += 1
-    (nextUserId % maxUser).toString
+    if (nextUserId > maxUser) nextUserId = minUser
+    nextUserId.toString
   }
 
   def spawnNewUser() = {
@@ -35,18 +38,25 @@ class LoadController extends Actor {
   }
 
   def spawnNewUserIfRoom() = {
-    if (lastTimeout < (System.currentTimeMillis() - TimeUnit.MINUTES.toMillis(1))) spawnNewUser()
+    if (lastTimeout < (System.currentTimeMillis() - TimeUnit.SECONDS.toMillis(10))) {
+      if (Random.nextFloat() < 0.21) spawnNewUser()
+    }
   }
 
   def receive = {
 
-    case StartTest(users) => {
-      numUsers = users
+    case ConfigureTest(min,max) => {
+      minUser = min
+      nextUserId = minUser
+      maxUser = max
+    }
+
+    case StartTest() => {
       self ! SpawnUsers
     }
 
     case SpawnUsers => {
-      if (lastTimeout == 0 && nextUserId < numUsers) {
+      if (lastTimeout == 0) {
         for (i <- 1 to 25) spawnNewUser()
         self sendLater SpawnUsers
       }

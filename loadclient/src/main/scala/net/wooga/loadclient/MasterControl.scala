@@ -10,7 +10,7 @@ object MasterControl {
   case object Stop
 
   case class CreateUsers(count: Int)
-  case class RunLoadTest(concurrentUsers: Int)
+  case class RunLoadTest(minUserId: Int, maxUserId: Int)
 
 }
 
@@ -47,10 +47,11 @@ class MasterControl(connectionFactory: DbConnection.Factory, hosts: List[String]
 
     // run the load test
 
-    case RunLoadTest(users) => {
+    case RunLoadTest(min,max) => {
       log.info("Starting load test")
       val loadController = context.actorOf(Props[LoadController], "LoadController")
-      loadController ! LoadController.StartTest(users)
+      loadController ! LoadController.ConfigureTest(min, max)
+      loadController ! LoadController.StartTest()
     }
 
   }

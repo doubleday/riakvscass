@@ -1,13 +1,25 @@
 {
-  "numServers": 4,
   "graphite": true,
   "riak": {
     "bucket": "TestBucket",
     "servers": [
-      "10.208.73.159",
-      "10.208.18.182",
-      "10.210.165.106",
-      "10.210.165.68"
+      "db01"
+      ,"db02"
+      ,"db03"
+      ,"db04"
+      ,"db05"
+    ]
+  },
+  "cassandra": {
+    "keyspace": "test",
+    "columnFamily": "users",
+    "servers": [
+      "db01"
+      ,"db02"
+      ,"db03"
+      ,"db04"
+      ,"db05"
     ]
   }
+
 }

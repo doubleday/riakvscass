@@ -1,8 +1,0 @@
-{
-  "run_list": ["role[riak]"],
-  "riak": {
-      "args": {
-          "-name": "riak@<%= node[:private_ip] %>"
-      }
-  }
-}
