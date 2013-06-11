@@ -42,13 +42,13 @@ class Riak(val hostName: String) extends DbConnection {
 }
 
 class Cassandra(val hostName: String) extends DbConnection {
-
-  //  val cluster = HFactory.createCluster("Test", new CassandraHostConfigurator(hostName + ":9160"))
-  val cluster = {
-    val configurator = new CassandraHostConfigurator(hostName + ":9160")
-    configurator.setMaxActive(1)
-    new ThriftCluster("Test", configurator, null)
-  }
+  val hosts = Config.cassandraServers.map( _ + ":9160" ).mkString(",")
+  val cluster = HFactory.getOrCreateCluster("Test", new CassandraHostConfigurator(hosts))
+//  val cluster = {
+//    val configurator = new CassandraHostConfigurator(hostName + ":9160")
+//    configurator.setMaxActive(1)
+//    new ThriftCluster("Test", configurator, null)
+//  }
 
   val keyspaceOperator = HFactory.createKeyspace(Config.cassandraKeyspace, cluster, HFactory.createDefaultConsistencyLevelPolicy(), FailoverPolicy.FAIL_FAST)
 
@@ -65,7 +65,7 @@ class Cassandra(val hostName: String) extends DbConnection {
     Try(mutator.insert(key, Config.cassandraColumnFamily, HFactory.createStringColumn("0", value)))
   }
 
-  def shutdown() = HFactory.shutdownCluster(cluster)
+  def shutdown() = {} // = HFactory.shutdownCluster(cluster)
 }
 
 object DbConnection {

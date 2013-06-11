@@ -3,22 +3,22 @@
   "riak": {
     "bucket": "TestBucket",
     "servers": [
-      "db01"
-      ,"db02"
-      ,"db03"
-      ,"db04"
-      ,"db05"
+      "db1"
+      ,"db2"
+      ,"db3"
+      ,"db4"
+      ,"db5"
     ]
   },
   "cassandra": {
     "keyspace": "test",
     "columnFamily": "users",
     "servers": [
-      "db01"
-      ,"db02"
-      ,"db03"
-      ,"db04"
-      ,"db05"
+      "db1"
+      ,"db2"
+      ,"db3"
+      ,"db4"
+      ,"db5"
     ]
   }
 

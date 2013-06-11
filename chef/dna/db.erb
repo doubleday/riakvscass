@@ -1,7 +1,7 @@
 {
   "run_list": ["role[riak]","role[cassandra]"],
   "cassandra": {
-    "seeds": "<%= hosts['db01'][0] %>",
+    "seeds": "<%= hosts['db1'][0] %>",
     "listen_addr": "<%= node[:private_ip] %>"
   },
   "riak": {

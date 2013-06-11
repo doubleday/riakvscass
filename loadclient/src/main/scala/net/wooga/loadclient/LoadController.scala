@@ -7,7 +7,7 @@ import scala.util.Random
 
 object LoadController {
 
-  case class ConfigureTest(minUser: Int, maxUser: Int)
+  case class ConfigureTest(minUser: Int, maxUser: Int, fixedCount: Int)
   case class StartTest()
 }
 
@@ -24,6 +24,8 @@ class LoadController extends Actor {
   var maxUser = 1000000
   var nextUserId = 0
   var lastTimeout = 0l
+  var fixedCount = -1
+  var loggedInUsers = 0
 
   def nextUserName() = {
     nextUserId += 1
@@ -35,20 +37,23 @@ class LoadController extends Actor {
     val user = context.actorOf(Props(new User(nextUserName())))
     user ! User.Wakeup
     Stats.userCounter.inc()
+    Stats.loginCounter.inc()
+    loggedInUsers = loggedInUsers + 1
   }
 
   def spawnNewUserIfRoom() = {
-    if (lastTimeout < (System.currentTimeMillis() - TimeUnit.SECONDS.toMillis(10))) {
+    if (lastTimeout < System.currentTimeMillis() - TimeUnit.SECONDS.toMillis(10)) {
       if (Random.nextFloat() < 0.21) spawnNewUser()
     }
   }
 
   def receive = {
 
-    case ConfigureTest(min,max) => {
+    case ConfigureTest(min,max,fixed) => {
       minUser = min
       nextUserId = minUser
       maxUser = max
+      fixedCount = fixed
     }
 
     case StartTest() => {
@@ -56,25 +61,38 @@ class LoadController extends Actor {
     }
 
     case SpawnUsers => {
-      if (lastTimeout == 0) {
+      if (fixedCount > 0) {
+        if (loggedInUsers < fixedCount) {
+          for (i <- 1 to Math.min(fixedCount - loggedInUsers, 25)) spawnNewUser()
+          self sendLater SpawnUsers
+        }
+
+      } else if (lastTimeout == 0) {
         for (i <- 1 to 25) spawnNewUser()
         self sendLater SpawnUsers
       }
     }
 
     case User.Logout => {
-      Stats.loginCounter.inc(1)
       Stats.userCounter.dec()
+      loggedInUsers = loggedInUsers - 1
       context.stop(sender)
-
-      spawnNewUser()
-      spawnNewUserIfRoom()
+      if (loggedInUsers < fixedCount) {
+        spawnNewUser()
+      } else {
+        spawnNewUser()
+        spawnNewUserIfRoom()
+      }
     }
 
     case User.LogoutAfterError => {
+      Stats.userCounter.dec()
+      loggedInUsers = loggedInUsers - 1
+      if (loggedInUsers < fixedCount) {
+        spawnNewUser()
+      }
       log.debug("Timeout occured")
       context.stop(sender)
-      Stats.userCounter.dec()
       lastTimeout = System.currentTimeMillis()
     }
   }

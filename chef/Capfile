@@ -89,10 +89,27 @@ namespace :local do
     end
   end
 
+  desc 'generate base dna'
+  task :generate_base do
+    instances = JSON.parse(`aws ec2 describe-instances`)['Reservations']
+    m = instances.inject({}) do |m, inst|
+      inst['Instances'].each do |vm|
+        name = vm['Tags'].detect { |tag| tag['Key'] == 'Name' }['Value']
+        m[name] = [vm['PrivateIpAddress'], vm['PublicIpAddress'], vm['State']['Code']]
+      end
+      m
+    end
+
+    m.each do |k,v|
+      puts "'#{k}'  => %w(#{v[0]}  #{v[1]}),"
+    end
+  end
+
 end
 
 # tasks -------------------------------------------
 
+# for s in 'load1' 'load2' 'load3' 'load4' 'db1' 'db2' 'db3' 'db4' 'db5' 'db6' 'graphite'; do (cap chef:install_chef $s &) ; done
 namespace :chef do
 
   desc 'Initialize a fresh Ubuntu install'
