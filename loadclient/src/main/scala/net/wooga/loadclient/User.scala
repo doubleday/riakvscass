@@ -106,7 +106,7 @@ class User(userId: String) extends Actor with FSM[State, Data] {
     case Reading -> Writing => {
       (nextStateData: @unchecked) match {
         case WriteBack(cid,value,ts) => {
-          val userValue = if (value != null) value else Random.alphanumeric.take(2000).mkString
+          val userValue = if (value != null) value else ContentInitializer.userData
           log.debug("Sending write request with {}", cid)
           dbAccessor ! DbAccessor.Write(cid, userId, userValue)
         }

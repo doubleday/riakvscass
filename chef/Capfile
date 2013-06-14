@@ -109,7 +109,10 @@ end
 
 # tasks -------------------------------------------
 
-# for s in 'load1' 'load2' 'load3' 'load4' 'db1' 'db2' 'db3' 'db4' 'db5' 'db6' 'graphite'; do (cap chef:install_chef $s &) ; done
+# for s in 'load1' 'load2' 'load3' 'load4' 'db1' 'db2' 'db3' 'db4' 'db5' 'graphite'; do (cap chef:install_chef $s &) ; done
+# create keyspace test with placement_strategy = 'org.apache.cassandra.locator.SimpleStrategy' and strategy_options = {replication_factor:3};
+# create column family users with read_repair_chance=0.0 and caching='ALL';
+
 namespace :chef do
 
   desc 'Initialize a fresh Ubuntu install'
